@@ -38,6 +38,12 @@ function validateInput (value) {
 
     const hourglass_1 = question_1.value>question_2.value?question_1.value:question_2.value;//garantindo a ampulheta 1 como maior
     const hourglass_2 = question_2.value<question_1.value?question_2.value:question_1.value;
+
+    if(hourglass_1 > 9999 || hourglass_2 > 9999){
+        console.log('Tente com ampulhetas menores que 10000...');
+        process.exit();
+    }
+
     const cooking = question_cooking.value;
 
     if(!areHourGlassesUseful(hourglass_1, hourglass_2, cooking)){
@@ -61,7 +67,7 @@ function areHourGlassesUseful(time1, time2, cooking){
     if (time1 <= cooking || time2 <= cooking) {
         return false;
     }
-
+    
     if (cooking % calculateMDC(time1, time2) != 0) {
         return false;
     }
