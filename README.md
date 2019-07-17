@@ -1,1 +1,2 @@
-# meu-miojo
+# init
+npm install
