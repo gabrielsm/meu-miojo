@@ -1,0 +1,23 @@
+{
+  "name": "meu-miojo",
+  "version": "1.0.0",
+  "description": "npm install na pasta do projeto para instalar dependências!",
+  "main": "index.js",
+  "dependencies": {
+    "prompts": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielsm/meu-miojo.git"
+  },
+  "author": "Gabriel Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielsm/meu-miojo/issues"
+  },
+  "homepage": "https://github.com/gabrielsm/meu-miojo#readme"
+}
