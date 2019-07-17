@@ -1,2 +1,1 @@
-# init
-npm install
+npm install na pasta do projeto para instalar dependencias!
